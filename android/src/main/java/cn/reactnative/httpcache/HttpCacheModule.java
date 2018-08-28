@@ -66,7 +66,7 @@ public class HttpCacheModule extends ReactContextBaseJavaModule {
 
     @ReactMethod
     public void getImageCacheSize(Promise promise){
-        FileCache cache1 = ImagePipelineFactory.getInstance().getMainDiskStorageCache();
+        FileCache cache1 = ImagePipelineFactory.getInstance().getSmallImageFileCache();
         long size1 = cache1.getSize();
         if (size1 < 0){
             try {
