@@ -6,6 +6,7 @@
 //  Copyright © 2015 erica. All rights reserved.
 //
 
+#import "RCTImageCache.h"
 #import <React/RCTBridgeModule.h>
 
 @interface RCTHttpCache : NSObject<RCTBridgeModule>
